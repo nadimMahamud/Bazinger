@@ -15,19 +15,23 @@ a{
 }
 #navbar{
   height: 100px;
-  width: 1480px;
   background-color: #131e29;
 }
 .container{
   height: 100%;
   width: 1170px;
   margin: 0 auto 0 auto;
+}
+.row{
   display: flex;
   flex-wrap: wrap;
 }
 #navbar .container .logo{
   width: 30%;
   display:block;
+}
+#navbar .container .logo a{
+ display: block;
 }
 #navbar .logo a img{
   padding: 15px 0 0 0;
