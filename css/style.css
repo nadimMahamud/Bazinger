@@ -28,7 +28,7 @@ a{
 #navbar .container .logo{
   width: 30%;
 }
-#navbar .logo a{
+#navbar .logo {
   display: inline-block;
 }
 #navbar .logo a img{
