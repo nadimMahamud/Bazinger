@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'lato', sans-serif;
 }
 ul,ol{
   list-style: none;
@@ -60,4 +60,54 @@ a{
 #navbar .menu-list ul li:hover a{
   color: #45b9ea;
   transition: all ease 0.4s;
+}
+#banner{
+  min-height:702px;
+  background-image: url("../images/banner.png");
+}
+.banner-part{
+  margin-left: 655px;
+}
+.banner-part .introductory{
+  color: #fff;
+  padding-top: 250px;
+}
+.banner-part .introductory h1{
+  font-size: 48px;
+  font-weight: 300;
+}
+.banner-part .introductory h1 span{
+  font-weight: 700;
+}
+.banner-part .introductory p{
+  margin-top: 33px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.banner-part .button{
+  margin-top: 44px;
+  text-transform: uppercase;
+  display: flex;
+}
+.banner-part .button .download{
+  display: inline-block;
+}
+.banner-part .button .learn-more{
+  margin-left: 40px;
+}
+.banner-part .button .download button,
+.banner-part .button .learn-more button{
+  background-color: transparent;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 25px 50px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+}
+.banner-part .button .download button:hover,
+.banner-part .button .learn-more button:hover{
+  background-color: #45b9ea;
+  border: 2px solid #45b9ea;
+  transition: all linear 0.5s;
 }
