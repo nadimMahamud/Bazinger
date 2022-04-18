@@ -18,7 +18,6 @@ a{
   background-color: #131e29;
 }
 .container{
-  height: 100%;
   width: 1170px;
   margin: 0 auto 0 auto;
 }
@@ -41,7 +40,7 @@ a{
   width: 70%;
 }
 #navbar .container .menu-list ul{
-  text-align: center;
+  text-align: right;
 }
 #navbar .container .menu-list ul li{
   display: inline-block;
@@ -66,14 +65,14 @@ a{
   background-image: url("../images/banner.png");
 }
 .banner-part{
-  margin-left: 655px;
+  margin-left: 567px;
+  padding-top: 342px;
 }
 .banner-part .introductory{
   color: #fff;
-  padding-top: 250px;
 }
 .banner-part .introductory h1{
-  font-size: 48px;
+  font-size: 46px;
   font-weight: 300;
 }
 .banner-part .introductory h1 span{
@@ -81,7 +80,7 @@ a{
 }
 .banner-part .introductory p{
   margin-top: 33px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
 }
 .banner-part .button{
