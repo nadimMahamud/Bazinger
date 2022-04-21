@@ -1,112 +1,63 @@
 *{
   margin: 0;
-  padding: 0;
+  position: 0;
   outline: 0;
   box-sizing: border-box;
 }
 body{
-  font-family: 'lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 ul,ol{
-  list-style: none;
+  list-style-type: none;
 }
 a{
   text-decoration: none;
 }
-#navbar{
-  height: 100px;
-  background-color: #131e29;
-}
 .container{
   width: 1170px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
 }
 .row{
   display: flex;
   flex-wrap: wrap;
 }
-#navbar .container .logo{
-  width: 30%;
-  display:block;
+/* navbar css start */
+#navbar{
+  background-color: #131e29;
 }
-#navbar .container .logo a{
- display: block;
-}
-#navbar .logo a img{
-  padding: 15px 0 0 0;
-  display: inline-block;
-}
-#navbar .container .menu-list{
-  width: 70%;
-}
-#navbar .container .menu-list ul{
-  text-align: right;
-}
-#navbar .container .menu-list ul li{
-  display: inline-block;
-}
-#navbar .container .menu-list ul li a{
-  padding: 41px 13px;
+/* logo part */
+#navbar .logo{
+  width: 25%;
   display: block;
-  color: #fff;
-  font-size: 13px;
-  font-weight: 800;
 }
-#navbar .menu-list ul li:first-child a{
-  color: #45b9ea;
-}
-
-#navbar .menu-list ul li:hover a{
-  color: #45b9ea;
-  transition: all ease 0.4s;
-}
-#banner{
-  min-height:702px;
-  background-image: url("../images/banner.png");
-}
-.banner-part{
-  margin-left: 567px;
-  padding-top: 342px;
-}
-.banner-part .introductory{
-  color: #fff;
-}
-.banner-part .introductory h1{
-  font-size: 46px;
-  font-weight: 300;
-}
-.banner-part .introductory h1 span{
-  font-weight: 700;
-}
-.banner-part .introductory p{
-  margin-top: 33px;
-  font-size: 16px;
-  font-weight: 300;
-}
-.banner-part .button{
-  margin-top: 44px;
-  text-transform: uppercase;
-  display: flex;
-}
-.banner-part .button .download{
+#navbar .logo a{
   display: inline-block;
+  padding: 16px 0 32px 0;
 }
-.banner-part .button .learn-more{
-  margin-left: 40px;
+/* menu part */
+#navbar .menu{
+  width: 75%;
 }
-.banner-part .button .download button,
-.banner-part .button .learn-more button{
-  background-color: transparent;
-  color: #fff;
+#navbar .menu ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#navbar .menu ul li{
+  padding: 44px 18.5px 47px 18.5px;
+}
+#navbar .menu ul li a{
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
   font-weight: 700;
-  font-size: 15px;
-  padding: 25px 50px;
-  border-radius: 8px;
-  border: 2px solid #fff;
 }
-.banner-part .button .download button:hover,
-.banner-part .button .learn-more button:hover{
-  background-color: #45b9ea;
-  border: 2px solid #45b9ea;
+#navbar .menu ul li:nth-child(1) a{
+  color: #42b1e0;
+}
+#navbar .menu ul li:hover a{
+  color: #42b1e0;
   transition: all linear 0.5s;
 }
+/* navbar css end */
+
