@@ -24,6 +24,7 @@ a{
 /* navbar css start */
 #navbar{
   background-color: #131e29;
+  border-bottom: 2px solid #556e84;
 }
 /* logo part */
 #navbar .logo{
