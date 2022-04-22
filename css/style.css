@@ -13,6 +13,9 @@ ul,ol{
 a{
   text-decoration: none;
 }
+img{
+  max-width: 100%;
+}
 .container{
   width: 1170px;
   margin: 0 auto;
@@ -52,13 +55,80 @@ a{
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
+  transition: all linear 0.5s;
 }
 #navbar .menu ul li:nth-child(1) a{
   color: #42b1e0;
 }
 #navbar .menu ul li:hover a{
   color: #42b1e0;
-  transition: all linear 0.5s;
 }
 /* navbar css end */
+
+/* banner part css start */
+#banner{
+  min-height: 700px;
+  background-image:url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#banner .container{
+  height: 100%;
+}
+#banner .row{
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+/* banner images part css */
+#banner .banner_images{
+  width: 40%;
+  position: absolute;
+  left: 0px;
+  bottom: -87px;
+}
+/* banner items part css */
+#banner .banner_items{
+  width: 60%;
+  margin-top: 250px;
+}
+/* banner content par css */
+#banner .banner_items .banner_content{
+  color: white;
+}
+#banner .banner_items .banner_content h1{
+  font-size: 48px;
+  font-weight: 300;
+}
+#banner .banner_items .banner_content h1 span{
+  font-weight: 700;
+}
+#banner .banner_items .banner_content p{
+  font-size: 18px;
+  font-weight: 300;
+  margin: 25px 0 39px 0;
+}
+/* button items part css */
+#banner .banner_items .button_items button{
+  padding: 25px 51px;
+  border: 2px solid white;
+  background-color:transparent ;
+  border-radius: 12px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.4s linear;
+}
+ #banner .button_items button:hover{
+   background-color: #42b1e0;
+   border: 2px solid #277697;
+ }
+ #banner .button_items .learn_more{
+   margin-left:40px ;
+ }
+/* banner part css end */
+
 
