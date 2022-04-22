@@ -129,6 +129,35 @@ img{
  #banner .button_items .learn_more{
    margin-left:40px ;
  }
+ /* available part css */
+ #banner .banner_items .available{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin-top: 50px;
+ }
+ #banner .banner_items .available p{
+   color: white;
+   font-size: 18px;
+   font-weight: 300;
+ }
+ #banner .banner_items .available .icon a span{
+   display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color:#171a1f;
+  color:#42b1e0;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 28px;
+ }
+ #banner .banner_items .available .icon a:nth-child(1) span{
+   margin-left: 20px;
+ }
+ #banner .banner_items .available .icon a:nth-child(2) span{
+  margin-left: 16px;
+}
 /* banner part css end */
 
 
