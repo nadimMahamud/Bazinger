@@ -108,10 +108,11 @@ img{
 #banner .banner_items .banner_content p{
   font-size: 18px;
   font-weight: 300;
-  margin: 25px 0 39px 0;
+  margin: 25px 0 41px 0;
 }
 /* button items part css */
-#banner .banner_items .button_items button{
+#banner .banner_items .button_items a{
+  display: inline-block;
   padding: 25px 51px;
   border: 2px solid white;
   background-color:transparent ;
@@ -122,7 +123,7 @@ img{
   text-transform: uppercase;
   transition: all 0.4s linear;
 }
- #banner .button_items button:hover{
+ #banner .button_items a:hover{
    background-color: #42b1e0;
    border: 2px solid #277697;
  }
